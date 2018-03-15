@@ -1,0 +1,23 @@
+
+
+
+body{
+	font-family: 'AppleSDGothicNeo-Regular','PT Sans', sans-serif;
+}
+
+.hr{
+	border: 0 none; 
+	border-top: 1px dashed #ccc; 
+	background: none; height:0; 
+	margin-top:  4em; 
+	margin-bottom: 3em;"
+}
+
+.hr-writing{
+	border: 0 none; 
+	border-top: 1px dashed #ccc; 
+	background: none; height:0; 
+	margin-top:  2em; 
+	margin-bottom: 2em;"
+}
+
