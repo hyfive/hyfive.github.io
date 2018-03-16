@@ -90,9 +90,6 @@ body{
 	transition: box-shadow .3s ease-out;
 }
 
-.thumbnail:hover{
-	box-shadow: 0px 15px 50px rgba(20,52,109,.2), 0px 10px 20px rgba(46,121,255,.2), 0px 2px 3px rgba(46,121,255,.2);
-}
 
 
 
