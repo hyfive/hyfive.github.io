@@ -246,4 +246,19 @@ body {
   padding-bottom: 3%
   } 
 
+  .no-padding-on-mobile{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .thumbnail-width{
+    max-width: 100vw;
+  }
+
+  .mobile-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+  }
+
 }
