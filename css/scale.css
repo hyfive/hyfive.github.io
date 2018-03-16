@@ -24,6 +24,12 @@
 }
 
 
+.logo{
+  width: 4.6em;
+}
+
+
+
 /*.selected-menu{
   color: #3D3D3E;
   font-weight: 800;
@@ -37,8 +43,8 @@ font-weight: 600;
 padding: .5em 1em .4em 1em;
 border-radius: 3em;
 
-background: rgb(46, 121, 255);
-box-shadow: 0px 8px 20px rgba(46,121,255,.4)
+background: rgb(235, 95, 89);
+box-shadow: 0px 8px 20px rgba(235,95,255,.4)
 
 /*
 background: #000;
@@ -173,7 +179,7 @@ body {
 
   body{
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 2em;
+    padding-top: 4.15%;;
   }
 
   .full-width{
@@ -190,8 +196,8 @@ body {
   .menu{
 
   font-size: 1.1em;
-  margin-top: 4em;
-  margin-bottom: 2em;
+  margin-top: 3.5em;
+  margin-bottom: 1.5em;
 
 
   }
@@ -228,10 +234,11 @@ body {
   margin-bottom: 0em; 
 }
 
-  .mega-title{
-    font-size: 4.4em;
 
-  }
+/*  .mega-title{
+    font-size: 0em;
+
+  }*/
 
  .mega-ariticle-title{
    font-size: 3em;
@@ -258,5 +265,13 @@ body {
     box-shadow: none;
   }
 
+  .logo{
+    width: 6.4em;
+    padding-top: 0em;
+  }
+
+  .quote{
+    margin-top: .8em;
+  }
 
 }
