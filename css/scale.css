@@ -254,4 +254,9 @@ body {
     line-height: 70%;
   }
 
+  .thumbnail:hover{
+    box-shadow: none;
+  }
+
+
 }
