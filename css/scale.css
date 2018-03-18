@@ -304,6 +304,10 @@ body {
     line-height: 70%;
   }
 
+ .thumbnail{
+  box-shadow:0px 5px 10px rgba(0,0,0,.3);
+  }
+  
   .thumbnail:hover{
     box-shadow: none;
   }
