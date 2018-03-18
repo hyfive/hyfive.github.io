@@ -47,8 +47,8 @@ html {
 
 .thumbnail{
   border-radius: 1.5em;  
-  -webkit-transition: all 3s ease-out;
-  transition: all 3s ease-out;
+/*   -webkit-transition: all 3s ease-out;
+  transition: all 3s ease-out; */
 }
 
 /*@keyframes hover{
