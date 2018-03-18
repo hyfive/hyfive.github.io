@@ -278,7 +278,7 @@ display: inline-block;
   .menu{
 
   font-size: 1.2em;
-  width: 31em;
+  width: 25.5em;
   }
 
   .menu-item{
@@ -313,7 +313,7 @@ display: inline-block;
 
 
   .back-button{
-  max-width: em; 
+  max-width: 3em; 
   padding: .5em 0em; 
   margin-bottom: 0em; 
 }
