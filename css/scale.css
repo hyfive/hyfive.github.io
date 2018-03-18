@@ -1,12 +1,28 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+
 
 /*menu*/
+
+.menu-wrapper{
+  margin-top: 7em;
+  margin-bottom: 5em;
+  overflow-x: auto;
+
+}
+
 .menu{
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-
-  margin-top: 7em;
-  margin-bottom: 5em;
+  padding: .5em;
 
   font-size: .9em;
   color: #bbbabc;
@@ -144,7 +160,7 @@ body {
 @media only screen and (max-width: 1440px) {
 
     .full-width{
-  max-width: 860px;
+  max-width: 960px;
   padding-left: 8.33%;
   padding-right: 8.33%;
 
@@ -187,14 +203,33 @@ body {
     font-size: 5.5em;
     font-weight: 700;
     line-height: 100%;
-
-
   }
 
 
   .strong-quote{
     font-weight: 700; 
+    background-image: -webkit-linear-gradient(-45deg, rgb(255, 186, 13) 0%, rgb(230, 5, 193) 32%, rgb(70, 192, 201) 85%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: relative;
+display: inline-block;
   }
+
+/*  .quote-writing{
+   background-image: -webkit-linear-gradient(-45deg, rgb(7, 230, 174) 0%, rgb(218, 247, 0) 31%, rgb(245, 147, 0) 78%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: relative;
+display: inline-block;
+  }
+
+  .quote-illustration{
+background-image: -webkit-linear-gradient(-45deg, rgb(255, 186, 13) 0%, rgb(230, 5, 193) 32%, rgb(70, 192, 201) 85%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: relative;
+display: inline-block;
+  }*/
 
 
   .sign{
@@ -232,19 +267,28 @@ body {
   padding-bottom: 8%;
   }
 
+
+  .menu-wrapper{
+  margin-top: 5em;
+  margin-bottom: 4em;
+  overflow-x: auto;
+
+}
+
   .menu{
 
   font-size: 1.2em;
-  margin-top: 5.4em;
-  margin-bottom: 3.4em;
-
-
+  width: 36em;
   }
 
   .menu-item{
+    margin-bottom: 0em;
+  }
+
+  {
   margin-right: 2.2em;
-  margin-bottom: 2em;
-}
+/*  margin-bottom: 2em;
+*/}
 
 
 /*Used in Article Pages*/
@@ -304,9 +348,6 @@ body {
     line-height: 70%;
   }
 
-
-
-  
   .thumbnail:hover{
     box-shadow: none;
   }
