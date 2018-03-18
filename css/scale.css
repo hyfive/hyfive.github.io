@@ -283,13 +283,14 @@ display: inline-block;
 
   .menu-item{
     margin-bottom: 0em;
-  }
-
-  {
-  margin-right: 2.2em;
+    margin-right: 2.2em;
 /*  margin-bottom: 2em;
 */}
 
+ .last-menu-item{
+    margin-right: 0;
+    }
+    
 
 /*Used in Article Pages*/
 
