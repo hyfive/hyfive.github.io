@@ -260,6 +260,7 @@ display: inline-block;
   }
 
   .full-width{
+  max-width: 940px;
   padding-left: 4.15%;
   padding-right: 4.15%;
 }
