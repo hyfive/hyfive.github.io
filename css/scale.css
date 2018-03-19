@@ -8,7 +8,9 @@ html {
 }
 
 .full-width{
-    max-width: 960px;
+	max-width: 960px;
+	padding-left: 8.33%;
+	padding-right: 8.33%;
 }
 
 /*menu*/
