@@ -161,7 +161,7 @@ body {
 @media only screen and (max-width: 1440px) {
 
     .full-width{
-  max-width: 900px;
+  max-width: 940px;
   padding-left: 8.33%;
   padding-right: 8.33%;
 
@@ -258,6 +258,7 @@ display: inline-block;
   }
 
   .full-width{
+  max-width: 960px;
   padding-left: 4.15%;
   padding-right: 4.15%;
 }
