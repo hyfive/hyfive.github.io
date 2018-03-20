@@ -372,3 +372,15 @@ display: inline-block;
   }
 
 }
+
+@media only screen and (max-width: 320px) {
+  .quote{
+    font-size: 3.5em;
+  }
+  .menu-wrapper{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  overflow-x: auto;
+
+}
+  }
