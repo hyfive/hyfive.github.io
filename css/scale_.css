@@ -7,26 +7,11 @@ html {
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 
-.fill{
-  font-size: .9em;
-}
-
 .full-width{
 	max-width: 960px;
 	padding-left: 8.33%;
 	padding-right: 8.33%;
 }
-
-.mega-article-title{
-  font-family: 'Lato', sans-serif;
-  line-height: 95%;
-  font-size: 5em;
-  font-weight: 800;
-  margin-bottom: 1em;
- 
-}
-
-
 
 /*menu*/
 
@@ -87,7 +72,7 @@ html {
 
 .thumbnail:hover{
 
-   box-shadow: 0px 20px 50px  -15px rgba(0,0,0,.3);
+   box-shadow: 0px 10px 50px  -15px rgba(0,0,0,.3);
 
   /*animation: hover 2.4s ease-out infinite; */
 /*   box-shadow: 0px 15px 50px rgba(0,0,0,.2), 0px 10px 20px rgba(0,0,0,.2), 0px 2px 3px rgba(0,0,0,.2);
@@ -126,15 +111,6 @@ box-shadow: 0px 8px 20px rgba(46,121,255,.4)
 
 /*size scale stuff*/
 
-
-
-.content{
-  font-size: 1.1em;
-  line-height: 160%;
-  color: #555;
-  font-weight: 200;
-  padding-bottom: 3em;
-}
 
 
 $bp-small: 48em; // 768px
@@ -220,13 +196,19 @@ body {
   opacity: 0;
 }
 
+.mega-ariticle-title{
+   font-size: 5em;
+  font-weight: 800;
+  line-height: 90%;
+
+}
 
 
 .quote{
-    font-family: 'Lato', sans-serif;
-    font-size: 5em;
+
+    font-size: 5.5em;
     font-weight: 700;
-    line-height: 95%;
+    line-height: 100%;
   }
 
 
@@ -303,7 +285,7 @@ display: inline-block;
   .menu{
 
   font-size: 1.2em;
-  width: 600px;
+  width: 550px;
   }
 
   .menu-item{
@@ -321,7 +303,6 @@ display: inline-block;
 
   .content{
   padding-bottom: 3em;
-  line-height: 1.7em;
   font-weight: 400;
   }
 
@@ -354,8 +335,7 @@ display: inline-block;
     width: 1.6em;
   }
 
- .mega-article-title{
-
+ .mega-ariticle-title{
    font-size: 3em;
   font-weight: 700;
   line-height: 100%;
