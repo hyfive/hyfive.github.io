@@ -1,11 +1,3 @@
-html {
-    overflow: scroll;
-    overflow-x: auto;
-}
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-   /* background: transparent;*/  /* optional: just make scrollbar invisible */
-}
 
 .fill{
   font-size: .9em;
