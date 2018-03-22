@@ -395,6 +395,7 @@ display: inline-block;
   }
 
   .quote{
+    font-family: 'Lato', sans-serif;
     margin-top: .8em;
     font-size: 4em;
     font-weight: 700;
@@ -413,6 +414,7 @@ display: inline-block;
 
 @media only screen and (max-width: 320px) {
   .quote{
+    font-family: 'Lato', sans-serif;
     font-size: 3.5em;
   }
   .menu-wrapper{
