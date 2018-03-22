@@ -7,6 +7,7 @@ html {
    /* background: transparent;*/  /* optional: just make scrollbar invisible */
 }
 
+
 .fill{
   font-size: .9em;
 }
@@ -235,6 +236,8 @@ body {
 
   .strong-quote{
     font-weight: 700; 
+    font-size: .95em;
+    line-height: 112%;
     background-image: -webkit-linear-gradient(-45deg, rgb(255, 186, 13) 0%, rgb(230, 5, 193) 32%, rgb(70, 192, 201) 85%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
