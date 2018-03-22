@@ -285,8 +285,8 @@ display: inline-block;
 
   .full-width{
   max-width: 940px;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 4.15%;
+  padding-right: 4.15%;
 }
 
     .flex-item{
@@ -392,6 +392,15 @@ display: inline-block;
     margin-top: .8em;
     font-size: 4em;
     font-weight: 700;
+  }
+
+  .no-padding-on-mobile{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mobile-padding{
+    padding-left: 4.15%;
+    padding-right: 4.15%;
   }
 
 }
