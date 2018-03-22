@@ -233,10 +233,11 @@ body {
   .strong-quote{
     font-weight: 700; 
     background-image: -webkit-linear-gradient(-45deg, rgb(255, 186, 13) 0%, rgb(230, 5, 193) 32%, rgb(70, 192, 201) 85%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-position: relative;
-display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 130px 20px;
+    position: relative;
+    display: inline-block;
   }
 
 /*  .quote-writing{
