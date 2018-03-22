@@ -339,11 +339,13 @@ display: inline-block;
 
   .content{
   padding-bottom: 3em;
-  line-height: 1.4em;
   font-weight: 400;
   }
 
-
+  .chinese{
+    font-size: .94em;
+    line-height: 160%;
+  }
 
   .image-container{
   
