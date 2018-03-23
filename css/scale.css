@@ -7,6 +7,23 @@ html {
    /* background: transparent;*/  /* optional: just make scrollbar invisible */
 }
 
+.flex-image-padding{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.flex-scale-8{
+  max-width: 50%;
+  width: 40%;
+  height: 40%;
+}
+
+.flex-scale-7{
+  max-width: 100%;
+  width: 90%;
+  height: 90%;
+}
+
 .quote{
   font-family: 'Lato', sans-serif;
 }
