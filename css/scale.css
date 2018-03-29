@@ -160,6 +160,9 @@ box-shadow: 0px 8px 20px rgba(46,121,255,.4)
   padding-bottom: 3em;
 }
 
+  .more-line-space{
+    line-height: 160%;
+  }
 
 $bp-small: 48em; // 768px
 $bp-medium: 64em; // 1024px
