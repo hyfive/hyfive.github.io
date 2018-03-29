@@ -30,6 +30,7 @@
 <body>
 <div class= "full-width center" ><a href="../index.html"><img class = "back-button" src="../images/back-button.svg"></a></div>
 
+<div class="en hidden" >
 <h1 class="full-width center mega-article-title">Realistic Icons</h1>
 
 <h5 class="full-width center head">DURATION</h5>
@@ -38,6 +39,17 @@
 <h5 class="full-width center fill">ICONS</h5>
 <h5 class="full-width center head">DUTY</h5>
 <h5 class="full-width center fill">ICON DESIGN</h5>
+</div>
+
+<div class="cn" >
+<h1 class="full-width center mega-article-title">图标合集</h1>
+<h5 class="full-width center head">时间</h5>
+<h5 class="full-width center fill">多个时间段</h5>
+<h5 class="full-width center head">类型</h5>
+<h5 class="full-width center fill">图标</h5>
+<h5 class="full-width center head">职责</h5>
+<h5 class="full-width center fill">图标设计</h5>
+</div>
 
 
 
@@ -73,5 +85,16 @@
 	
 
 </div>
+<!-- place the language Switcher  -->
+
+<div class="change-lang lang-show">
+	<p class="lang go-chinese en" onclick="switchLang();"  style="cursor:pointer;">Looking for English? Click me!</p>
+	<p class="lang go-chinese cn hidden" onclick="switchLang();"  style="cursor:pointer;">切换为中文 | Switch to Chinese</p>
+	<div class="tag-hide" onclick="removeLang();" style="cursor:pointer;"><img src="../images/hide_lang_bar.svg"></div>
+</div>
+
+
 </body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/lang.js"></script>
 </html>
