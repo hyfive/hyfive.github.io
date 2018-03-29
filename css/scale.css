@@ -160,10 +160,6 @@ box-shadow: 0px 8px 20px rgba(46,121,255,.4)
   padding-bottom: 3em;
 }
 
-  .chinese{
-    line-height: 170%;
-  }
-
 
 $bp-small: 48em; // 768px
 $bp-medium: 64em; // 1024px
@@ -359,7 +355,7 @@ display: inline-block;
   font-weight: 400;
   }
 
-  .chinese{
+  .more-line-space{
     font-size: .94em;
     line-height: 160%;
   }

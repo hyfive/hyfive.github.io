@@ -45,9 +45,18 @@ function removeLang(){
 		removeLanguage = true;
 	}
 
-// function showLang(){
-// 	$('.change-lang').removeClass('lang-hide');
-// }
-// $(document).ready(function() {$('.change-lang').removeClass('lang-hide');});
+// Switch Language
+langIsEn = false;
+function switchLang(){
+	if (langIsEn == false){
+		langISEn = true;
+		$('.en').toggleClass('hidden');
+		$('.cn').toggleClass('hidden');		
+	} else {
+		langIsEn = false;
+		$('.en').toggleClass('hidden');
+		$('.cn').toggleClass('hidden');
+	}
+}
 
 
