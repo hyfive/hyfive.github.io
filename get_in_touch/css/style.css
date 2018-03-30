@@ -128,6 +128,10 @@ body{
 
 }
 
+.download-cv{
+line-height: 2em;
+
+}
 
 
 @media only screen and (max-width: 600px) {
