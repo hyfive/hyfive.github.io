@@ -70,7 +70,7 @@ html {
 }
 
 .content-title{
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.2em;
 }
 
@@ -342,7 +342,7 @@ display: inline-block;
 }
 
 .content-title{
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 
@@ -366,7 +366,7 @@ display: inline-block;
 /*Used in Article Pages*/
 
   .content{
-  padding-bottom: 0em;
+  padding-bottom: 1em;
   font-weight: 400;
   }
 
@@ -377,7 +377,7 @@ display: inline-block;
 
   .image-container{
   
-  padding-bottom: 0em;
+  padding-bottom: 1em;
 
   }
 
