@@ -157,12 +157,19 @@ box-shadow: 0px 8px 20px rgba(46,121,255,.4)
   line-height: 130%;
   color: #555;
   font-weight: 400;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
   .more-line-space{
     line-height: 160%;
   }
+
+  .image-container{
+  
+  padding-bottom: 4em;
+
+  }
+
 
 $bp-small: 48em; // 768px
 $bp-medium: 64em; // 1024px
@@ -334,6 +341,11 @@ display: inline-block;
 
 }
 
+.content-title{
+  padding-top: 2em;
+}
+
+
   .menu{
 
   font-size: 1em;
@@ -354,7 +366,7 @@ display: inline-block;
 /*Used in Article Pages*/
 
   .content{
-  padding-bottom: 3em;
+  padding-bottom: 0em;
   font-weight: 400;
   }
 
@@ -365,7 +377,7 @@ display: inline-block;
 
   .image-container{
   
-  padding-bottom: 3em;
+  padding-bottom: 0em;
 
   }
 
