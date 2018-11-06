@@ -1,0 +1,124 @@
+/* Text Scaling */
+
+.h1{
+   font-size: 28px;
+   font-weight: 600; 
+}
+
+.h2{
+    font-size: 24px;
+    font-weight: 600; 
+ }
+
+ .h3{
+    font-size: 20px;
+    font-weight: 600; 
+ }
+
+ .h4{
+    font-size: 18px;
+    font-weight: 600; 
+ }
+
+ .h5{
+    font-size: 16px;
+    font-weight: 600; 
+ }
+
+ .text-l{
+    font-size: 18px;
+ }
+
+ .text-m{
+    font-size: 16px;
+ }
+
+.text-s{
+    font-size: 14px;
+ }
+
+ .text-xs{
+    font-size: 12px;
+ }
+
+ 
+
+ /* Border Radius */
+
+ .raddi-m{
+     border-radius: 8px;
+ }
+
+ .raddi-cap{
+     border-radius: 300px;
+ }
+
+
+ /* Shadow */
+
+
+
+ shadow-xl{
+    box-shadow: 0px 8px 16px rgba(0,0,0,.2);
+}
+
+ shadow-m{
+     box-shadow: 0px 2px 8px rgba(0,0,0,.1);
+ }
+
+
+ /* Spacing Scale */
+
+/* Vertical Spacing */
+
+ .spacingV-40{
+    padding-top: 40px;
+ }
+
+ .spacingV-36{
+     padding-top: 36px;
+ }
+
+ .spacingV-32{
+    padding-top: 32px;
+}
+
+.spacingV-28{
+    padding-top: 28px;
+}
+
+.spacingV-24{
+    padding-top: 24px;
+}
+
+.spacingV-20{
+    padding-top: 20px;
+}
+
+.spacingV-16{
+    padding-top: 16px;
+}
+
+.spacingV-12{
+    padding-top: 12px;
+}
+
+
+/* Horizontal Spacing */
+
+.spacingH-20{
+    padding-left: 20px;
+}
+
+.spacingH-16{
+    padding-left: 16px;
+}
+
+.spacingH-12{
+    padding-left: 12px;
+}
+
+.spacingH-8{
+    padding-left: 8px;
+}
+

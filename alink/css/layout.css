@@ -1,0 +1,159 @@
+
+body{
+    
+    font-family: sans-serif;
+    color: rgba(0,0,0,.87);
+    line-height: 1.5;
+    letter-spacing: .2;
+    display: flex;
+    padding: 40px;
+    font-weight: 400;
+    flex-direction: column;
+
+}
+
+/* container */
+
+.flex-centerAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    padding: 40px 40px 0px 40px;
+
+}
+
+/* iPhone 8  */
+
+.page-iPhone8{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 20px; */
+
+    width: 375px;
+    /* height: 667px; */
+
+    /* background-color: rgb(252, 252, 252); */
+    overflow: hidden;
+
+    /* border: 1px solid rgba(0,0,0,.1); */
+
+    margin: 40px;
+}
+
+.page-iPhoneSE{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+    width: 320px;
+    height: 568px;
+
+    background-color: rgb(252, 252, 252);
+    overflow: hidden;
+
+    margin: 40px;
+}
+
+
+
+/* .page-iPhone8:before{
+    content: "";
+    height: 20px;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+
+} */
+
+
+
+.statusbar{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    /* background-color: rgba(0,0,0,.01); */
+
+}
+
+.navbar{
+    display: flex;
+    height: 44px;
+    width: 100%;
+    /* background-color: rgba(0,0,0,.01); */
+
+}
+
+
+/* Color */
+
+.color-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    width: 180px;
+    background-color: rgb(252, 252, 252);
+
+}
+
+
+
+.color{
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+
+
+.color-s{
+    display: flex;
+    width: 100%;
+    height: 12px;
+}
+
+/* Shadow */
+
+.card{
+    width: 98%;
+    height: 240px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+/* Spacing */
+
+.spacing{
+    background-color: rgba(84, 127, 255, 0.377);
+    border: 1px solid rgba(84, 127, 255, 0.8);
+}
+
+.spacingH-Text{
+    position: absolute;
+    right: -44px;
+}
+
+/*demo box*/
+
+.demo-box {
+	color: #547EFF;
+	background-color: rgba(84, 127, 255, 0.377);
+	border: 1px solid rgba(84, 127, 255, 0.8);
+}
