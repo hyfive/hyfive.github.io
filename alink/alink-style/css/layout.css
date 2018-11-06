@@ -12,6 +12,23 @@ body{
 
 }
 
+
+.pageTitle {
+	display: flex; 
+	padding-left: 40pt; 
+	padding-top: 40pt; 
+	font-size: 52pt; 
+	font-weight: 600;
+}
+
+.verTitle {
+	display: flex; 
+	padding-left: 40pt; 
+	font-size: 28pt; 
+	color: rgba(0,0,0,.2); 
+	font-weight: 200;
+}
+
 /* container */
 
 .flex-centerAll{
@@ -156,4 +173,35 @@ body{
 	color: #547EFF;
 	background-color: rgba(84, 127, 255, 0.377);
 	border: 1px solid rgba(84, 127, 255, 0.8);
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+		padding: 40px 0px;
+    }
+	
+	.color-card-wrapper {
+		margin: 20px;
+	}
+	
+	.title {
+		padding: 20px 20px;
+	}
+	
+	.section {
+		padding: 20px 0px;
+	}
+	
+	.pageTitle {
+		font-size: 64px;
+		padding-left: 20px;
+		padding-top:  20px;
+	}
+	.verTitle {
+		padding-left:20px;
+	}
 }
