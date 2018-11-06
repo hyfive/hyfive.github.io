@@ -204,4 +204,8 @@ body{
 	.verTitle {
 		padding-left:20px;
 	}
+	
+	.iphone-8 {
+		width: 320px;
+	}
 }
