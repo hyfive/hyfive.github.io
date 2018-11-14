@@ -181,6 +181,10 @@ body{
     body {
 		padding: 40px 0px;
     }
+
+    .content{
+        max-width: 320px;
+    }
 	
 	.color-card-wrapper {
 		margin: 10px;
@@ -198,12 +202,46 @@ body{
 		font-size: 64px;
 		padding-left: 20px;
 		padding-top:  20px;
-	}
+	} 
 	.verTitle {
 		padding-left:20px;
 	}
 	
 	.page-iphone8 {
-		width: 320px;
-	}
+        width: 320px;
+        margin: 20px;
+    }
+    
+    /* test */
+/* 
+    body {
+        padding: 0px;
+        width: 320;
+    }
+
+    .pageTitle {
+        padding: 0px;
+    }
+
+    .verTitle {
+        padding: 0px;
+    }
+
+    .section{
+        padding: 0px;
+    }
+
+    .title {
+        padding: 0px;
+    }
+    .page-iphone8 {
+        margin: 0px;
+    }
+
+    .color-card-wrapper{
+        margin: 0px;
+    } */
+
+
+
 }
