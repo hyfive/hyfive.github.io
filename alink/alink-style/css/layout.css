@@ -187,11 +187,12 @@ body{
     }
 	
 	.color-card-wrapper {
-		margin: 10px;
+        margin: 10px 0px;
+        max-width: 160px;
 	}
 	
 	.title {
-		padding: 20px 20px;
+		padding: 20px 0px;
 	}
 	
 	.section {
@@ -200,18 +201,21 @@ body{
 	
 	.pageTitle {
 		font-size: 64px;
-		padding-left: 20px;
+		padding-left: 0px;
 		padding-top:  20px;
 	} 
 	.verTitle {
-		padding-left:20px;
+		padding-left:0px;
 	}
 	
 	.page-iphone8 {
         width: 320px;
-        margin: 20px;
+        margin: 0px;
     }
     
+    .hideWhite{
+        display: none;
+    }
     /* test */
 /* 
     body {
