@@ -1,0 +1,53 @@
+:root {
+    /* 颜色 Color */
+    --color-primary: rgba(0, 0, 0, .87);
+    --color-secondary: rgba(0, 0, 0, .57);
+    --color-weak: rgba(0, 0, 0, .38);
+    --color-hightlighted: rgba(255, 255, 255, 1);
+    --color-border: rgba(0, 0, 0, .2);
+    --color-line: rgba(0, 0, 0, .1);
+    --color-mask-dark: rgba(0, 0, 0, .6);
+    --color-mask-light: rgba(0, 0, 0, .4);
+    --color-link: #4287FF;
+    --color-brand: #4287FF;
+    --color-basefill: white;
+    --color-basefill-gray: #f4f4f4;
+    --color-error: #FF6060;
+    --color-warning: #FF6546;
+    --color-success: #6BB81F;
+    --color-action: #65708A;
+    --color-action-tap: #8191B0;
+    --color-badge: #FF4948;
+    /* 字号 Font Scaling */
+    --h1: 28px;
+    --h2: 24px;
+    --h3: 20px;
+    --h4: 18px;
+    --h5: 16px;
+    --text-xxs: 10px;
+    --text-xs: 12px;
+    --text-s: 14px;
+    --text-m: 16px;
+    --text-l: 18px;
+    /* 圆角 Radius */
+    --radius-xs: 2px;
+    --radius-s: 4px;
+    --radius-m: 8px;
+    --radius-l: 12px;
+    --radius-cap: 100px;
+    /* 边框 Border */
+    --border-s: .5px solid;
+    --border-m: 1px solid;
+    /* 阴影 Shadow */
+    --shadow-s: 0px 1px 4px rgba(0, 0, 0, .1);
+    --shadow-m: 0px 2px 8px rgba(0, 0, 0, .1);
+    --shaodow-l: 0px 3px 12px rgba(0, 0, 0, .1);
+    /* 间距 Spacing */
+    --spacing-xxs: 4px;
+    --spacing-xs: 8pt;
+    --spacing-s: 10px;
+    --spacing-m: 12px;
+    --spacing-l: 16px;
+    --spacing-xl: 20px;
+    --spacing-xxl: 40px;
+}
