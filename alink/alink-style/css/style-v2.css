@@ -1,38 +1,70 @@
 /* Inital Styles */
 
+@import "./style-index.css";
 
 /* Color */
 
 .color-brand {
-    background-color: #547EFF;
+    background-color: var(--color-brand);
 }
 
-.color-bluishGray {
-    background-color: #65708A;
+.color-link {
+    background-color: var(--color-link);
 }
+
+.color-primary {
+    background-color: var(--color-primary);
+}
+
+.color-secondary {
+    background-color: var(--color-secondary);
+}
+
+.color-mask {
+    background-color: var(--color-mask);
+}
+
+.color-weak {
+    background-color: var(--color-weak);
+}
+
+.color-border {
+    background-color: var(--color-border);
+}
+
+.color-line {
+    background-color: var(--color-line);
+}
+
+.color-basefill {
+    background-color: var(--color-basefill);
+}
+
+.color-highlighted {
+    background-color: var(--color-highlighted);
+}
+
+
+/* set 2 */
 
 .color-success {
-    background-color: #6BB81F;
-}
-
-.color-warning {
-    background-color: #FF6546;
+    background-color: var(--color-success);
 }
 
 .color-error {
-    background-color: #FF6060;
+    background-color: var(--color-error);
 }
 
-.color-red {
-    background-color: #FF4948;
+.color-badge {
+    background-color: var(--color-badge);
 }
 
-.color-white {
-    background-color: #FFF;
+.color-warning {
+    background-color: var(--color-warning);
 }
 
-.color-dark {
-    background-color: rgba(0, 0, 0, .87);
+.color-action {
+    background-color: var(--color-action);
 }
 
 
@@ -84,6 +116,10 @@
     font-size: 12px;
 }
 
+.text-xxs {
+    font-size: 10px;
+}
+
 
 /* Border Radius */
 
@@ -92,7 +128,7 @@
 }
 
 .radii-m {
-	border-radius: 8px;
+    border-radius: 8px;
 }
 
 .radii-s {
@@ -107,18 +143,20 @@
     border-radius: 300px;
 }
 
+
 /*Border*/
 
 .border-m {
-	border: 1pt;
+    border: 1pt;
 }
 
 .border-s {
-	border: .5pt;
+    border: .5pt;
 }
 
 
 /* Shadow */
+
 
 /*.shadow-xl {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, .1);
@@ -127,16 +165,14 @@
 
 .shadow-l {
     box-shadow: 0px 3px 12px rgba(0, 0, 0, .1);
-
 }
 
 .shadow-m {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, .1);
-
 }
 
 .shadow-s {
-	box-shadow: 0px 1px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, .1);
 }
 
 
@@ -177,6 +213,10 @@
     padding-top: 12px;
 }
 
+.spacingV-10 {
+    padding-top: 10px;
+}
+
 .spacingV-8 {
     padding-top: 8px;
 }
@@ -198,6 +238,10 @@
 
 .spacingH-12 {
     padding-left: 12px;
+}
+
+.spacingH-10 {
+    padding-left: 10px;
 }
 
 .spacingH-8 {

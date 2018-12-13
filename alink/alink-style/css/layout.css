@@ -181,13 +181,18 @@ body{
     body {
 		padding: 20px 0px;
     }
+
+    .content{
+        max-width: 320px;
+    }
 	
 	.color-card-wrapper {
-		margin: 10px;
+        margin: 10px 0px;
+        max-width: 160px;
 	}
 	
 	.title {
-		padding: 20px 20px;
+		padding: 20px 0px;
 	}
 	
 	.section {
@@ -196,14 +201,15 @@ body{
 	
 	.pageTitle {
 		font-size: 64px;
-		padding-left: 20px;
+		padding-left: 0px;
 		padding-top:  20px;
-	}
+	} 
 	.verTitle {
-		padding-left:20px;
+		padding-left:0px;
 	}
 	
 	.page-iphone8 {
+<<<<<<< HEAD
 		width: 320px;
 	}
 /*	
@@ -211,5 +217,45 @@ body{
 		width: 120;
 	}*/
 	
+=======
+        width: 320px;
+        margin: 0px;
+    }
+    
+    .hideWhite{
+        display: none;
+    }
+    /* test */
+/* 
+    body {
+        padding: 0px;
+        width: 320;
+    }
+
+    .pageTitle {
+        padding: 0px;
+    }
+
+    .verTitle {
+        padding: 0px;
+    }
+
+    .section{
+        padding: 0px;
+    }
+
+    .title {
+        padding: 0px;
+    }
+    .page-iphone8 {
+        margin: 0px;
+    }
+
+    .color-card-wrapper{
+        margin: 0px;
+    } */
+
+
+>>>>>>> deee218502bf8b34e2d67a590231cbc92d0a118e
 
 }

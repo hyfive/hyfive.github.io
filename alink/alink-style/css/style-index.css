@@ -1,13 +1,14 @@
 :root {
     /* 颜色 Color */
     --color-primary: rgba(0, 0, 0, .87);
-    --color-secondary: rgba(0, 0, 0, .57);
+    --color-secondary: rgba(0, 0, 0, .54);
     --color-weak: rgba(0, 0, 0, .38);
-    --color-hightlighted: rgba(255, 255, 255, 1);
+    --color-highlighted: rgba(255, 255, 255, 1);
     --color-border: rgba(0, 0, 0, .2);
     --color-line: rgba(0, 0, 0, .1);
-    --color-mask-dark: rgba(0, 0, 0, .6);
-    --color-mask-light: rgba(0, 0, 0, .4);
+    --color-mask: rgba(0, 0, 0, .5);
+    /* --color-mask-dark: rgba(0, 0, 0, .6);
+    --color-mask-light: rgba(0, 0, 0, .4); */
     --color-link: #4287FF;
     --color-brand: #4287FF;
     --color-basefill: white;
