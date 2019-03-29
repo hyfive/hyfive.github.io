@@ -1,0 +1,10 @@
+.header1 {
+    font-size: var(--h3);
+    padding-top: 20px;
+}
+
+.h3Subtitle {
+    font-size: var(--text-s);
+    font-weight: 400;
+    line-height: calc(var(--text-s)*1.5);
+}
