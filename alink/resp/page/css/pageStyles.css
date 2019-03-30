@@ -4,7 +4,8 @@
         perspective: 1px;
         height: 100vh;
         overflow-x: hidden;
-        overflow-y: auto
+        overflow-y: auto;
+        scroll-behavior: smooth;
     }
     
     .page {
@@ -45,28 +46,30 @@
     }
     
     @media only screen and (max-width: 599px) {
-        .pageContent {
-            display: flex;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        .media {
-            height: 80vw;
-            transform: translateZ(-1px) translateY(-28vh) scale(2.2);
-        }
-        .col-s {
-            grid-template-columns: auto auto !important;
-            grid-column-gap: 10px;
-        }
-        .col-m {
-            grid-template-columns: auto auto !important;
-            grid-column-gap: 10px;
-        }
-        .col-l {
-            padding-top: 20px;
-            display: grid;
-            width: 100%;
-            grid-template-columns: auto !important;
-            grid-column-gap: 20px;
+        @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+            .pageContent {
+                display: flex;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .media {
+                height: 80vw;
+                transform: translateZ(-1px) translateY(-28vh) scale(2.2);
+            }
+            .col-s {
+                grid-template-columns: auto auto !important;
+                grid-column-gap: 10px;
+            }
+            .col-m {
+                grid-template-columns: auto auto !important;
+                grid-column-gap: 10px;
+            }
+            .col-l {
+                padding-top: 20px;
+                display: grid;
+                width: 100%;
+                grid-template-columns: auto !important;
+                grid-column-gap: 20px;
+            }
         }
     }
