@@ -1,25 +1,29 @@
     /* pageWithMap */
     
-    #map {
-        width: 100%;
-        height: 100%;
+    .frame {
+        perspective: 1px;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto
     }
     
     .page {
         display: flex;
+        position: absolute;
         /* height: 1000px; */
         width: 100%;
-        transform: translateY(-12px);
-        /* transform: translateY(calc(40vw - 12px)); */
         /* transition: all .3s; */
         left: 0;
+        transform: translateZ(0px) translateY(-12px);
     }
     
     .media {
+        width: 100%;
         height: 40vw;
         /* max-height: 600px; */
         background: url('https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/46/1479380052-jimmi-simpson-william-evan-rachel-wood-dolores.jpg') no-repeat;
         background-size: cover;
+        transform: translateZ(-1px) translateY(-30vh) scale(2.2);
     }
     
     .pageContent {
@@ -48,10 +52,7 @@
         }
         .media {
             height: 80vw;
-        }
-        .page {
-            transform: translateY(- 12px);
-            /* transition: all .3s; */
+            transform: translateZ(-1px) translateY(-28vh) scale(2.2);
         }
         .col-s {
             grid-template-columns: auto auto !important;
