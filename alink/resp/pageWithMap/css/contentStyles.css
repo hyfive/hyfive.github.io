@@ -8,3 +8,31 @@
     font-weight: 400;
     line-height: calc(var(--text-s)*1.5);
 }
+
+#grabber{
+    display: none;
+    background: var(--color-mask-light);
+    width: 28px;
+    height: 4px;
+    margin-top: 8px;
+    border-radius: var(--radius-s);
+}
+
+.card{
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: var(--shadow-m);
+    border-radius: var(--radius-l)
+}
+
+.cardContent{
+    padding:20px;
+}
+
+.cardContentHolder{
+    width: 100%;
+    height: 80px;
+    border-left: 1px dashed var(--color-secondary);
+    border-right: 1px dashed var(--color-secondary);
+    /* border-radius: var(--radius-m) */
+}

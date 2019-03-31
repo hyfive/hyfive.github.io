@@ -32,7 +32,7 @@
 .col-m {
     padding-top: 10px;
     display: grid;
-    width: 100%;
+    /* width: 100%; */
     grid-template-columns: auto auto auto;
     grid-column-gap: 20px;
 }
@@ -57,4 +57,23 @@
     padding-top: 72%;
     background: var(--color-basefill-gray);
     border-radius: var(--radius-l)
+}
+
+.card{
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: var(--shadow-m);
+    border-radius: var(--radius-l)
+}
+
+.cardContent{
+    padding:20px;
+}
+
+.cardContentHolder{
+    width: 100%;
+    height: 50px;
+    /* background: #f4f4f4; */
+    margin-top: 20px;
+    border-radius: var(--radius-m)
 }
