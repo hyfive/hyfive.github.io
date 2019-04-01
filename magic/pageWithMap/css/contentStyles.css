@@ -9,8 +9,15 @@
     line-height: calc(var(--text-s)*1.5);
 }
 
-#grabber{
+#grabber {
     display: none;
+    justify-content: center;
+    width: 100%;
+    height: 4px;
+}
+
+#grabber::before {
+    content: '';
     background: var(--color-mask-light);
     width: 28px;
     height: 4px;
@@ -18,18 +25,16 @@
     border-radius: var(--radius-s);
 }
 
-.card{
+.card {
     margin-top: 20px;
+    box-sizing: border-box;
     width: 100%;
     box-shadow: var(--shadow-m);
-    border-radius: var(--radius-l)
+    border-radius: var(--radius-l);
+    padding: 20px;
 }
 
-.cardContent{
-    padding:20px;
-}
-
-.cardContentHolder{
+.cardContentHolder {
     width: 100%;
     height: 80px;
     border-left: 1px dashed var(--color-secondary);
