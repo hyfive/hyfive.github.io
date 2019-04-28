@@ -11,10 +11,11 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 1280px;
+    max-width: 1440px;
     min-width: 960px;
     width: 100%;
     height: 100vh;
+    padding: 0 20px;
 }
 
 .header {
@@ -22,7 +23,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    min-height: 120px;
+    min-height: 100px;
     width: 100%;
     padding: 0px 40px;
     box-sizing: border-box;
@@ -131,7 +132,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 160px;
-    min-width: 150px;
+    min-width: 100px;
     height: 100vh;
     padding: 60px 20px 40px 40px;
     overflow-x: hidden;
@@ -196,7 +197,7 @@ body {
     border-radius: 16px;
     width: 100%;
     background: white;
-    padding: 30px 80px 80px;
+    padding: 30px 60px 80px;
 }
 
 .row {
@@ -222,6 +223,7 @@ body {
     display: inline;
     min-width: 100px;
     margin-left: 60px;
+    /* transform: translateY(-90px) */
 }
 
 .content-nav-child {
@@ -244,11 +246,11 @@ body {
 }
 
 .h1 {
-    padding-top: 40px;
+    padding-top: 32px;
     font-size: 40px;
     line-height: 160%;
     font-weight: 500;
-    font-family: 'Helvetica Neue'
+    /* font-family: 'Helvetica Neue' */
 }
 
 .h3 {
