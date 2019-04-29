@@ -30,9 +30,6 @@ body{
 
 
 
-
-
-
 /*Position & size classes*/
 
 
@@ -55,11 +52,19 @@ body{
 
 }
 
+/*.flex {
+	
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 10px;
+}*/
+
 .flex-item{
 	display: inline-block;
-	max-width: 400px;
+	max-width: 440px;
 	width: 48%;
-
+	flex-grow: 1;
+	padding: 10px;
 	padding-bottom: 8%;
 }
 
