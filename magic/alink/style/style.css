@@ -36,6 +36,14 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, .1)
 }
 
+.media-navigator {
+    display: none;
+}
+
+.media-menu-icon {
+    display: none;
+}
+
 .sub-header {
     display: flex;
     flex-direction: row;
@@ -294,4 +302,8 @@ body {
     height: 80px;
     background: url(../assets/alink-logo.png);
     background-size: cover;
+}
+
+#mask {
+    display: none;
 }

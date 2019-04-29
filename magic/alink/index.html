@@ -8,6 +8,7 @@
     <title>ALINK BY AMAP DESIGN</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css" />
     <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/style-media.css" />
 </head>
 
 <body>
@@ -23,24 +24,15 @@
                     <div class="hm-item  hm-item-active">组件</div>
                     <div class="hm-item">协作</div>
                     <div class="search-bar" style="color: rgba(0,0,0,.38)">搜索 Alert</div>
-
-
-
                 </div>
             </div>
+            <div class="media-menu-icon" style="font-size: 24px;" onclick="showCompList()">三</div>
         </div>
 
-        <!-- <div class="sub-header">
-            <div class="header-menubar-container">
-                <div class="header-menubar">
-                    <div class="shm-item shm-item-active">基础组件</div>
-                    <div class="shm-item  ">驾车组件</div>
-                    <div class="shm-item">公交组件</div>
-                    <div class="shm-item">信息服务组件</div>
-                    <div class="shm-item">基础地图组件</div>
-                </div>
-            </div>
-        </div> -->
+        <div class="media-navigator">
+            <div style="display: flex">基础组件 → 页面类 → PageWithMedia</div>
+            <div style="display: flex;">↓</div>
+        </div>
         <div class="content-wrapper">
             <div class="side-bar">
                 <div class="dpl-content-container">
@@ -127,6 +119,43 @@
             <div class="logo-text">ALINK</div>
         </div>
     </div>
+    <div id="mask" onclick="hideCompList()"></div>
 </body>
+
+<script>
+    var mql = window.matchMedia("screen and (max-width:850px)");
+
+    // function showMenubar() {
+    //     if (mql) {
+    //         document.getElementsByClassName("header-menubar-container")[0].style.display = "flex";
+    //     }
+    // }
+
+    function showCompList() {
+        if (mql) {
+            document.getElementsByClassName("side-bar")[0].style.display = "flex";
+
+            document.getElementById("mask").style.display = "flex";
+            setTimeout(() => {
+                document.getElementsByClassName("side-bar")[0].style.transform = "translateX(0px)";
+                document.getElementById("mask").style.background = "rgba(0,0,0,.8)";
+            }, 100);
+        }
+    }
+
+    function hideCompList() {
+        if (mql) {
+            document.getElementsByClassName("side-bar")[0].style.transform = "translateX(-360px)";
+            document.getElementById("mask").style.background = "rgba(0,0,0,0)";
+            setTimeout(() => {
+                document.getElementsByClassName("side-bar")[0].style.display = null;
+                document.getElementsByClassName("side-bar")[0].style.transform = null;
+                document.getElementById("mask").style.display = null;
+                document.getElementById("mask").style.background = null;
+            }, 400);
+        }
+
+    }
+</script>
 
 </html>
