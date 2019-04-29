@@ -5,7 +5,8 @@ body {
     align-items: center;
     background: #fff;
     font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 300;
     line-height: 160%;
     color: #444;
 }
@@ -80,7 +81,7 @@ body {
     height: 100%;
     margin-left: 30px;
     align-items: center;
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(0, 0, 0, .38);
     /* font-weight: 600; */
 }
@@ -175,7 +176,7 @@ body {
     content: '';
     height: 30px;
     padding-left: 20px;
-    border-left: 4px solid #000;
+    border-left: 4px solid #212121;
     /* transform: translateX(-24px) */
 }
 
