@@ -27,13 +27,13 @@
                     <div class="search-bar" style="color: rgba(0,0,0,.38)">搜索 Alert</div>
                 </div>
             </div>
-            <div class="media-menu-icon" style="font-size: 24px;" onclick="showMenu()">三</div>
+            <div class="media-menu-icon" style="font-size: 28px;" onclick="showMenu()">三</div>
         </div>
 
         <div class="media-navigator">
 
             <div style="display: flex">基础组件 → 页面类 → PageWithMedia</div>
-            <div class="media-menu-icon" style="font-size: 24px;" onclick="showCompList()">⌘</div>
+            <div class="media-menu-icon" style="font-size: 24px;" onclick="showCompList()">↓</div>
             <!-- <div style="display: flex; font-size: 30px; padding-right: 4px;" onclick="showCompList()">⌵</div> -->
         </div>
         <div class="content-wrapper">
@@ -148,7 +148,7 @@
     // }
 
     function showCompList() {
-        if (mql) {
+        if (mql.matches && !mql600.matches) {
             document.getElementsByClassName("side-bar")[0].style.display = "flex";
             document.getElementById("mask").style.display = "flex";
             document.body.style.overflow = "hidden";
@@ -156,12 +156,30 @@
                 document.getElementsByClassName("side-bar")[0].style.transform = "translateX(0px)";
                 document.getElementById("mask").style.background = "rgba(0,0,0,.8)";
             }, 100);
+        } else if (mql600.matches) {
+            document.getElementsByClassName("side-bar")[0].style.display = "flex";
+            document.getElementById("mask").style.display = "flex";
+            document.body.style.overflow = "hidden";
+            setTimeout(() => {
+                document.getElementsByClassName("side-bar")[0].style.transform = "translateY(0px)";
+                document.getElementById("mask").style.background = "rgba(0,0,0,.8)";
+            }, 100);
         }
     }
 
     function hideCompList() {
-        if (mql) {
+        if (mql.matches && !mql600.matches) {
             document.getElementsByClassName("side-bar")[0].style.transform = "translateX(-360px)";
+            document.getElementById("mask").style.background = "rgba(0,0,0,0)";
+            setTimeout(() => {
+                document.getElementsByClassName("side-bar")[0].style.display = null;
+                document.getElementsByClassName("side-bar")[0].style.transform = null;
+                document.getElementById("mask").style.display = null;
+                document.getElementById("mask").style.background = null;
+                document.body.style.overflow = null;
+            }, 400);
+        } else if (mql600.matches) {
+            document.getElementsByClassName("side-bar")[0].style.transform = "translateY(100vh)";
             document.getElementById("mask").style.background = "rgba(0,0,0,0)";
             setTimeout(() => {
                 document.getElementsByClassName("side-bar")[0].style.display = null;
@@ -175,7 +193,7 @@
     }
 
     function showMenu() {
-        if (mql && !mql600.matches) {
+        if (mql.matches && !mql600.matches) {
             document.getElementById("mask").style.display = "flex";
             document.getElementById("side-bar-r").style.display = "flex";
             document.body.style.overflow = "hidden";

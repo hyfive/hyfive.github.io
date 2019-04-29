@@ -40,7 +40,7 @@
         top: 0px;
         left: 0;
         z-index: 999;
-        transform: translateX(-360px);
+        transform: translateX(-360px) translateY(0px);
         transition: transform .3s ease-out;
     }
     .content-container {
@@ -106,6 +106,18 @@
         background: white;
         box-sizing: border-box;
         transform: translateY(100vh) translateX(0px);
+        transition: transform .3s ease-out;
+    }
+    .side-bar {
+        display: none;
+        position: fixed;
+        background: white;
+        padding: 60px 40px 40px;
+        width: 100%;
+        top: 44px;
+        left: 0;
+        z-index: 999;
+        transform: translateX(0px) translateY(100vh);
         transition: transform .3s ease-out;
     }
 }
