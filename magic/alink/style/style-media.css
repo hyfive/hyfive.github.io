@@ -70,14 +70,14 @@
         display: none;
         padding: 20px 40px;
         flex-direction: column;
-        right: 0;
+        left: 0;
         top: 0;
         position: fixed;
         width: 320px;
         height: 100vh;
         background: white;
         box-sizing: border-box;
-        transform: translateX(360px) translateY(0px);
+        transform: translateX(-360px) translateY(0px);
         transition: transform .3s ease-out;
     }
 }
