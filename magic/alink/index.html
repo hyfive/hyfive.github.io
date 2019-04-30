@@ -16,7 +16,6 @@
         <div class="header" style="justify-content: center;">
             <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1380px;">
                 <div class="media-menu-icon" style="font-size: 28px;" onclick="showCompList()">三</div>
-
                 <div class="logo-container">
                     <div class="logo"></div>
                 </div>
@@ -32,16 +31,12 @@
                 <div class="media-menu-icon" style="font-size: 28px;" onclick="showMenu()">三</div>
             </div>
         </div>
-
         <div class="media-navigator">
 
             <div style="display: flex">基础组件 → 页面类 → PageWithMedia</div>
-            <!-- <div class="media-menu-icon" style="font-size: 24px;" onclick="showCompList()">↓</div> -->
-            <!-- <div style="display: flex; font-size: 30px; padding-right: 4px;" onclick="showCompList()">⌵</div> -->
         </div>
         <div class="content-wrapper">
             <div class="side-bar">
-
                 <div class="dpl-content-container">
                     <div class="dpl-category ">页面类</div>
                     <ul>
@@ -82,37 +77,36 @@
                 </div>
             </div>
             <div class="content-container">
-                <div class="card col">
-                    <h1 class="h1">PageWithMedia</h2>
-                        <p style="padding-top: 10px; font-size: 20px;">带有媒体内容的页面</p>
-                        <div class="content row">
-                            <div class="content-content">
+                <div class="card row">
 
+                    <div class="content row">
+                        <div class="content-content">
 
-                                <h3 class="h3">概述 </h3>
-                                <p class="content-text"> PageWithMap组件。包含图面和内容两部分，不包含顶部导航栏。页面导航通过【X】按钮实现。</p>
-                                <img src="assets/image-no-text.jpg" alt="img" class="content-img">
-                                <h3 class="h3">图示 </h3>
-                                <p class="content-text"> 在真实项目开发中，你可能会需要 Redux 或者 MobX 这样的数据流方案，Ant Design React 作为一个 UI 库，可以和任何 React 生态圈内的数据流方案以及应用框架搭配使用。我们基于 Redux 推出了自己的最佳实践 dva，以及可插拔的企业级应用框架 umi，推荐你在项目中使用。</p>
-                                <h3 class="h3">使用方法</h3>
-                                <p class="content-text"> 在开始之前，推荐先学习 React 和 ES2015，并正确安装和配置了 Node.js v8 或以上。 官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识，并且已经完全掌握了 React 全家桶的正确开发方式。如果你刚开始学习前端或者 React，将 UI 框架作为你的第一步可能不是最好的主意。</p>
-                                <h3 class="h3">API</h3>
-                                <p class="content-text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                                    make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            </div>
-                            <div class="content-nav">
-
-                                <ul class="content-nav-child">
-                                    <li class="content-listitem">概述</li>
-                                    <li class="content-listitem">图示</li>
-                                    <li class="content-listitem">使用方法</li>
-                                    <li class="content-listitem">API</li>
-                                </ul>
-
-                            </div>
-
+                            <h1 class="h1">PageWithMedia</h1>
+                            <p style="padding-top: 10px; font-size: 20px;">带有媒体内容的页面</p>
+                            <h3 class="h3">概述 </h3>
+                            <p class="content-text"> PageWithMap组件。包含图面和内容两部分，不包含顶部导航栏。页面导航通过【X】按钮实现。</p>
+                            <img src="assets/image-no-text.jpg" alt="img" class="content-img">
+                            <h3 class="h3">图示 </h3>
+                            <p class="content-text"> 在真实项目开发中，你可能会需要 Redux 或者 MobX 这样的数据流方案，Ant Design React 作为一个 UI 库，可以和任何 React 生态圈内的数据流方案以及应用框架搭配使用。我们基于 Redux 推出了自己的最佳实践 dva，以及可插拔的企业级应用框架 umi，推荐你在项目中使用。</p>
+                            <h3 class="h3">使用方法</h3>
+                            <p class="content-text"> 在开始之前，推荐先学习 React 和 ES2015，并正确安装和配置了 Node.js v8 或以上。 官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识，并且已经完全掌握了 React 全家桶的正确开发方式。如果你刚开始学习前端或者 React，将 UI 框架作为你的第一步可能不是最好的主意。</p>
+                            <h3 class="h3">API</h3>
+                            <p class="content-text"> 我们在现阶段不严格的借用了原子化设计（Atomic Design）中的一些理念。这个理念由 Brad Frost 于 2013 年提出，旨在通过构建可复用的代码片段（组件）来降低开发成本。这个理念将组件按照原子、分子、有机体、模版和页面划分，原子可构成分子，分子构成有有机体，有机体构成模版 … 以此类推。大概就是这个意思。该兴趣的同学可以去他的网站在开始之前，推荐先学习 React 和 ES2015，并正确安装和配置了 Node.js v8
+                                或以上。 官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识，并且已经完全掌握了 React 全家桶的正确开发方式。如果你刚开始学习前端或者 React，将 UI 框架作为你的第一步可能不是最好的主意。</p><br/><br/>
                         </div>
+
+                    </div>
+                    <div class="content-nav">
+                        <ul class="content-nav-child">
+                            <li class="content-listitem">概述</li>
+                            <li class="content-listitem">图示</li>
+                            <li class="content-listitem">使用方法</li>
+                            <li class="content-listitem">API</li>
+                        </ul>
+
+                    </div>
+
 
                 </div>
 
@@ -123,7 +117,7 @@
     <div class="footer">
         <div class="logo-container">
             <div class="logo-2"></div>
-            <div class="logo-text">ALINK</div>
+            <div class="logo-text">PEACE & ALINK</div>
         </div>
     </div>
     <div id="mask" onclick="hideCompList(), hideMenu()"></div>
@@ -218,7 +212,7 @@
 
     function hideMenu() {
         if (mql && !mql600.matches) {
-            document.getElementById("side-bar-r").style.transform = "translateX(-360px) ";
+            document.getElementById("side-bar-r").style.transform = "translateX(360px) ";
             document.getElementById("mask").style.background = "rgba(0,0,0,0)";
             setTimeout(() => {
                 document.getElementById("side-bar-r").style.display = "none";
