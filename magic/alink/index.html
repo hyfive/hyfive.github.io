@@ -37,6 +37,7 @@
         </div>
         <div class="content-wrapper">
             <div class="side-bar">
+
                 <div class="dpl-content-container">
                     <div class="dpl-category ">页面类</div>
                     <ul>
@@ -75,6 +76,7 @@
                         <li class="dpl-listitem">CheckboxItem</li>
                     </ul>
                 </div>
+
             </div>
             <div class="content-container">
                 <div class="card row">
@@ -145,7 +147,7 @@
             document.getElementById("mask").style.display = "flex";
             document.body.style.overflow = "hidden";
             setTimeout(() => {
-                document.getElementsByClassName("side-bar")[0].style.transform = "translateX(0px)";
+                document.getElementsByClassName("side-bar")[0].style.transform = "translateX(0px) ";
                 document.getElementById("mask").style.background = "rgba(0,0,0,.8)";
             }, 100);
         } else if (mql600.matches) {
