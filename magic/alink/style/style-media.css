@@ -38,20 +38,20 @@
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         padding: 60px 20px 40px;
-        width: 240px;
+        width: 340px;
         top: 0px;
         left: 0px;
         z-index: 999;
+        height: 100vh;
         transform: translateX(-360px) translateY(0px);
         transition: transform 0.3s ease-out;
-        /* height: 10vh;
-        overflow: scroll; */
+        box-sizing: border-box;
     }
     .content-wrapper {
         padding-top: 0px;
         padding-left: 30px;
         padding-right: 30px;
-        height: 100%;
+        /* height: 100%; */
     }
     .content-content {
         padding-top: 0px;
