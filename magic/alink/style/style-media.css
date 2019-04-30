@@ -38,9 +38,9 @@
         padding: 60px 40px 40px;
         width: 240px;
         top: 0px;
-        right: 0;
+        left: 0px;
         z-index: 999;
-        transform: translateX(360px) translateY(0px);
+        transform: translateX(-360px) translateY(0px);
         transition: transform .3s ease-out;
     }
     .content-container {
